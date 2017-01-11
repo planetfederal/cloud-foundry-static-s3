@@ -1,0 +1,14 @@
+---
+
+domain: cfapps.io
+
+applications:
+- name: cloud-foundry-static-s3
+  memory: 128MB
+  disk_quota: 256MB
+  buildpack: python_buildpack
+  command: python main.py
+  env:
+    S3_BUCKET_NAME: bucket
+    AWS_ACCESS_KEY: key
+    AWS_SECRET_KEY: secret
