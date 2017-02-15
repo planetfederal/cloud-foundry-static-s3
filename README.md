@@ -23,7 +23,7 @@ AWS credentials in the `manifest.yml` file and then pushes the application to
 PCF:
 
 ```
-Usage: deploy.sh S3_BUCKET_NAME AWS_ACCESS_KEY AWS_SECRET_KEY DIRECTORY_INDEX
+Usage: deploy.sh S3_BUCKET_NAME AWS_ACCESS_KEY AWS_SECRET_KEY
 ```
 
 ## Caching
